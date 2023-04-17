@@ -8,5 +8,4 @@ def solution(s):
             else:
                 answer += i[j].lower()
         answer += ' '
-    answer = answer[:-1]
-    return answer
+    return answer[:-1]
