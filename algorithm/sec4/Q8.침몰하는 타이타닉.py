@@ -41,7 +41,7 @@ while w:
         cnt += 1
         break
     if w[0]+w[-1]>M:
-        w.pop
+        w.pop()
         cnt+=1
     else:
         w.popleft() #deque는 popleft() 사용
