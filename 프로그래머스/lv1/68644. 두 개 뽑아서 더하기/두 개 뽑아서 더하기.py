@@ -5,7 +5,8 @@ def solution(numbers):
     for i in comb:
         answer.append(i[0]+i[1])
     answer.sort()
-    ans = []
+    
+    ans =[]
     for i in answer:
         if i not in ans:
             ans.append(i)
