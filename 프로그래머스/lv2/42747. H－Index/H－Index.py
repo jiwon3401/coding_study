@@ -1,8 +1,7 @@
 def solution(citations):
-    answer=0
     citations.sort(reverse=True)
+    answer=0
     for i in range(len(citations)):
-        if citations[i]<(i+1): ###
-            return i
-        
-    return len(citations) #[5,5,5,5]일 경우
+        if citations[i]>=i: #h번 이상 인용이 h개
+            answer+=1
+    return answer
