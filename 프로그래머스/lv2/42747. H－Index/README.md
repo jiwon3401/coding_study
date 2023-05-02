@@ -1,5 +1,6 @@
 # [level 2] H-Index - 42747 
-#다시풀기!!!!
+#다시풀기!!!   
+
 [문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/42747) 
 
 ### 성능 요약
