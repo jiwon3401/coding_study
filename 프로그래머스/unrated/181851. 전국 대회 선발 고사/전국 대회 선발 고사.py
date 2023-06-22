@@ -12,8 +12,5 @@ def solution(rank, attendance):
             answer.append(rank.index(k))
         else:
             pass
-    
-        if len(answer)==3:
-            break   
             
     return 10000*answer[0]+100*answer[1]+answer[2]
