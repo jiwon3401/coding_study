@@ -1,4 +1,3 @@
-#무방향그래프
 import sys
 n,m = map(int, input().split())
 #n:노드번호, m:간선개수
