@@ -1,4 +1,4 @@
-#[Q2.양팔저울(DFS)]
+#[Q3.양팔저울(DFS)]
 import sys
 input = sys.stdin.readline
 
